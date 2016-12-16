@@ -33,6 +33,13 @@ body {
     font-size: 28px;
 	text-align: center;
   }
+  
+  .main-text > h1{
+  
+  font-size: 55px;
+  color: #fff;
+  letter-spacing: .1em;
+  }
 }
 section {
   padding: 150px 0;
@@ -54,8 +61,8 @@ section {
   top: 0;
   background: #2B5957;
   z-index: 2;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 .heading {
   margin-bottom: 40px;
@@ -325,7 +332,7 @@ NAVBAR
 }
 /* navbar */
 .navbar {
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Lato', sans-serif;
   min-height: 40px;
   margin-bottom: 0;
   border-bottom: 1px solid transparent;
@@ -799,7 +806,7 @@ h6,
 h1,
 .h1 {
   font-size: 48px;
-}
+  }
 h2,
 .h2 {
   font-size: 36px;
